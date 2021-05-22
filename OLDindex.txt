@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fackles' Portfolio</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1>Fackles' Portfolio</h1>
+    <p>Hello World! This is a test message</p>
+    <button onclick="revealMessage1()">Click me!</button>
+    <div id="hiddenMessage1" style="display:none">
+        <p>My name is Deez.</p>
+        <button id="countDownButton" onclick="countDown()">5</button>
+    </div>
+</body>
+</html>
