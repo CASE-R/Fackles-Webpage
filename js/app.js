@@ -22,16 +22,9 @@ const navSlide = () => {
     });
 }
 
-const navHRef = () => {
-    nav.addEventListener('click',() => {
-        
-    })
-}
-
 // Groups defined function(s) from above
 const app = () => {
     navSlide();
-    navHRef();
 }
 // Calls grouped function
 app();
